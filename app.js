@@ -1,3 +1,6 @@
+import * as tf from '@tensorflow/tfjs';
+import * as toxicity from '@tensorflow-models/toxicity';
+
 const express = require('express');
 const cookieParser = require('cookie-parser');
 const path = require('path');
@@ -83,4 +86,13 @@ app.listen(PORT, err => {
         exit(-1);
     }
     console.log(`Listening on port ${PORT}...`);
+});
+
+
+// Local Sentiment Model 
+const threshold = 0.9;
+toxicity.load(threshold).then(model => {
+  model.classify(['you suck']).then(predictions => {
+    console.log(predictions);
+  });
 });

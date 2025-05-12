@@ -36,6 +36,7 @@ xhr.onreadystatechange = function () {
   }
 };
 
+// Grab cookes with this function
 function getCookie(name) {
   const cookies = document.cookie.split('; ');
   const match = cookies.find(c => c.startsWith(name + '='));
