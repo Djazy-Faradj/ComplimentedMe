@@ -1,0 +1,54 @@
+<!--
+  Project: Complimented.me
+  Author: Djazy Faradj
+  Description: A minimalist web app for promoting self-confidence through self-written compliments.
+  Created: 2025-05-11
+  License: All rights reserved
+  Key press audio credits: by MattRuthSound -- https://freesound.org/s/561698/ -- https://freesound.org/s/561699/ -- https://freesound.org/s/561658/  -- https://freesound.org/s/561697/ -- License: Attribution 4.0
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Complimented.me | A Word for Myself</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="cursor-ring"></div> 
+
+  <!--Ambient sound-->
+  <audio autoplay loop id="ambient">
+    <source src="ambient_sound.mp3" type="audio/mpeg">
+    Your browser does not support audio
+  </audio>
+
+  <!--Submit compliment sfx-->
+  <audio  preload="auto" id="submit-paper-audio">
+    <source src="sfx/paper_flip_1.mp3" type="audio/mpeg">
+    Your browser does not support audio
+  </audio>
+  <audio  preload="auto" id="submit-ding-audio">
+    <source src="sfx/sparkle.mp3" type="audio/mpeg">
+    Your browser does not support audio
+  </audio>
+
+  <!--Keyboard sfx-->
+  <audio  preload="auto" id="key-pressed-audio">
+    <source src="sfx/key_press_1.mp3" type="audio/mpeg">
+    Your browser does not support audio
+  </audio>
+
+  <header>complimented.me</header>
+  <div class="tagline">A little love from you — to you.</div>
+  <form id="compliment-form">
+    <!--TEXTAREA-->
+  </form>
+  <div id="sticker-zone"></div>
+  <footer>
+    &copy; 2025 Complimented.me — You are enough.
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
