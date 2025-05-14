@@ -1,6 +1,6 @@
 # complimented.me
 
-**complimented.me** is a minimal, focused web application that helps users build self-confidence through daily self-directed compliments. By encouraging regular, positive self-talk, the platform leverages repetition and reflection to gradually influence how users perceive themselves.
+[**complimented.me**](http://complimented.me/) is a minimal, focused web application that helps users build self-confidence through daily self-directed compliments. By encouraging regular, positive self-talk, the platform leverages repetition and reflection to gradually influence how users perceive themselves.
 
 ## 🎯 Purpose
 
