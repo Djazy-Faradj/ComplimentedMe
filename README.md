@@ -25,10 +25,10 @@ Modern life often exposes us to criticism, comparison, and negative internal dia
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS (custom styling), Vanilla JavaScript
+- **Frontend**: HTML, CSS, Vanilla JavaScript
 - **Backend**: Node.js with Express
 - **Storage**: Browser cookies for daily compliments
-- **Filtering (optional)**: Basic keyword screening or TensorFlow.js sentiment detection
+- **Filtering**: ML-powered sentiment detection to prevent negative language
 
 ---
 
